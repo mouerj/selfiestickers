@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF36229B1C513D5200347F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF36229A1C513D5200347F1F /* main.m */; };
+		DF36229E1C513D5200347F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF36229D1C513D5200347F1F /* AppDelegate.m */; };
+		DF3622A11C513D5200347F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3622A01C513D5200347F1F /* ViewController.m */; };
+		DF3622A41C513D5200347F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3622A21C513D5200347F1F /* Main.storyboard */; };
+		DF3622A61C513D5200347F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3622A51C513D5200347F1F /* Assets.xcassets */; };
+		DF3622A91C513D5200347F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3622A71C513D5200347F1F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3622961C513D5200347F1F /* SelfieSticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF36229A1C513D5200347F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF36229C1C513D5200347F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF36229D1C513D5200347F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF36229F1C513D5200347F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF3622A01C513D5200347F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF3622A31C513D5200347F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF3622A51C513D5200347F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF3622A81C513D5200347F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF3622AA1C513D5200347F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3622931C513D5200347F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF36228D1C513D5200347F1F = {
+			isa = PBXGroup;
+			children = (
+				DF3622981C513D5200347F1F /* SelfieSticker */,
+				DF3622971C513D5200347F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3622971C513D5200347F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3622961C513D5200347F1F /* SelfieSticker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3622981C513D5200347F1F /* SelfieSticker */ = {
+			isa = PBXGroup;
+			children = (
+				DF36229C1C513D5200347F1F /* AppDelegate.h */,
+				DF36229D1C513D5200347F1F /* AppDelegate.m */,
+				DF36229F1C513D5200347F1F /* ViewController.h */,
+				DF3622A01C513D5200347F1F /* ViewController.m */,
+				DF3622A21C513D5200347F1F /* Main.storyboard */,
+				DF3622A51C513D5200347F1F /* Assets.xcassets */,
+				DF3622A71C513D5200347F1F /* LaunchScreen.storyboard */,
+				DF3622AA1C513D5200347F1F /* Info.plist */,
+				DF3622991C513D5200347F1F /* Supporting Files */,
+			);
+			path = SelfieSticker;
+			sourceTree = "<group>";
+		};
+		DF3622991C513D5200347F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF36229A1C513D5200347F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3622951C513D5200347F1F /* SelfieSticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3622AD1C513D5200347F1F /* Build configuration list for PBXNativeTarget "SelfieSticker" */;
+			buildPhases = (
+				DF3622921C513D5200347F1F /* Sources */,
+				DF3622931C513D5200347F1F /* Frameworks */,
+				DF3622941C513D5200347F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieSticker;
+			productName = SelfieSticker;
+			productReference = DF3622961C513D5200347F1F /* SelfieSticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF36228E1C513D5200347F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joseph Mouer";
+				TargetAttributes = {
+					DF3622951C513D5200347F1F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DF3622911C513D5200347F1F /* Build configuration list for PBXProject "SelfieSticker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF36228D1C513D5200347F1F;
+			productRefGroup = DF3622971C513D5200347F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3622951C513D5200347F1F /* SelfieSticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3622941C513D5200347F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3622A91C513D5200347F1F /* LaunchScreen.storyboard in Resources */,
+				DF3622A61C513D5200347F1F /* Assets.xcassets in Resources */,
+				DF3622A41C513D5200347F1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3622921C513D5200347F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3622A11C513D5200347F1F /* ViewController.m in Sources */,
+				DF36229E1C513D5200347F1F /* AppDelegate.m in Sources */,
+				DF36229B1C513D5200347F1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF3622A21C513D5200347F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3622A31C513D5200347F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3622A71C513D5200347F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3622A81C513D5200347F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3622AB1C513D5200347F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3622AC1C513D5200347F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3622AE1C513D5200347F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfieSticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Pineland-Innovations.SelfieSticker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF3622AF1C513D5200347F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfieSticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Pineland-Innovations.SelfieSticker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3622911C513D5200347F1F /* Build configuration list for PBXProject "SelfieSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3622AB1C513D5200347F1F /* Debug */,
+				DF3622AC1C513D5200347F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3622AD1C513D5200347F1F /* Build configuration list for PBXNativeTarget "SelfieSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3622AE1C513D5200347F1F /* Debug */,
+				DF3622AF1C513D5200347F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF36228E1C513D5200347F1F /* Project object */;
+}
